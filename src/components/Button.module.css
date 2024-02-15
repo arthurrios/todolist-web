@@ -1,4 +1,4 @@
-.button {
+.button[type=submit] {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,6 +19,10 @@
   cursor: pointer;
 }
 
-.button:hover {
+.button[type=submit]:not(:disabled):hover {
   background-color: var(--blue);
+}
+
+.button[type=submit]:disabled {
+  cursor: not-allowed;
 }

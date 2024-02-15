@@ -1,25 +1,39 @@
 .containerTaskCreated {
   display: flex;
   align-items: flex-start;
-  gap: 0.75rem;
+  justify-content: space-between;
   padding: 1rem;
   background-color: var(--gray-500);
   border-radius: 8px;
   border: 1px solid var(--gray-400);
 }
 
+.containerTaskCreated > div {
+  display: flex;
+  gap: 0.75rem;
+}
+
 .containerTaskDone {
   display: flex;
   align-items: flex-start;
-  gap: 0.75rem;
+  justify-content: space-between;
   padding: 1rem;
   background-color: var(--gray-500);
   border-radius: 8px;
+  border: 1px solid var(--gray-500);
+
+}
+
+.containerTaskDone > div {
+  display: flex;
+  gap: 0.75rem;
 }
 
 .uncheckedCircle {
   min-height: 1.09375rem;
   min-width: 1.09375rem;
+  max-height: 1.09375rem;
+  max-width: 1.09375rem;
   border-radius: 999px;
 
   background-color: transparent;
@@ -32,6 +46,8 @@
 .uncheckedCircle:hover {
   min-height: 1.09375rem;
   min-width: 1.09375rem;
+  max-height: 1.09375rem;
+  max-width: 1.09375rem;
   border-radius: 999px;
 
   background-color: var(--blue-dark-low);
@@ -45,6 +61,8 @@
 
   min-height: 1.09375rem;
   min-width: 1.09375rem;
+  max-height: 1.09375rem;
+  max-width: 1.09375rem;
   border-radius: 999px;
 
   background-color: var(--purple-dark);
