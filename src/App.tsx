@@ -5,8 +5,12 @@ import { Header } from './components/Header'
 import { Input } from './components/Input'
 import { PlusCircle } from '@phosphor-icons/react'
 import { TaskCount } from './components/TaskCount'
+import { useState } from 'react'
+import { EmptyContainer } from './components/EmptyContainer'
 
 export function App() {
+  const [tasks, setTasks] = useState([])
+
   return (
     <div>
       <Header />
@@ -21,6 +25,8 @@ export function App() {
           <TaskCount type="created" count={0} />
           <TaskCount type="done" count={0} />
         </div>
+
+        {tasks.length === 0 && <EmptyContainer />}
       </main>
     </div>
   )
