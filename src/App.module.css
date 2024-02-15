@@ -20,4 +20,10 @@ main {
   margin-bottom: 1.5rem;
 }
 
+.tasksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
 

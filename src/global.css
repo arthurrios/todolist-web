@@ -1,5 +1,6 @@
 :root {
   --blue-dark: #1E6F9F;
+  --blue-dark-low: rgba(30,111,159, 0.2);
   --blue: #4EA8DE;
   --purple-dark: #5E60CE;
   --purple: #8284FA;
@@ -40,10 +41,5 @@ body, input {
   line-height: 1.4;
 }
 
-button {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
+
 

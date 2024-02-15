@@ -1,0 +1,99 @@
+.containerTaskCreated {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+}
+
+.containerTaskDone {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+}
+
+.uncheckedCircle {
+  min-height: 1.09375rem;
+  min-width: 1.09375rem;
+  border-radius: 999px;
+
+  background-color: transparent;
+  border: 1px solid var(--blue);
+
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.uncheckedCircle:hover {
+  min-height: 1.09375rem;
+  min-width: 1.09375rem;
+  border-radius: 999px;
+
+  background-color: var(--blue-dark-low);
+  border: 1px solid var(--blue-dark);
+}
+
+.checkedCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 1.09375rem;
+  min-width: 1.09375rem;
+  border-radius: 999px;
+
+  background-color: var(--purple-dark);
+  border: 1px solid var(--purple-dark);
+
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.checkedCircle:hover {
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+
+}
+
+.checkedCircle svg {
+  color: var(--gray-100);
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+.descriptionTaskDone {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.deleteButton {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  border-radius: 4px;
+
+  line-height: 0;
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.deleteButton svg {
+  min-height: 0.875rem;
+}
+
+.deleteButton:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+}
+
+
