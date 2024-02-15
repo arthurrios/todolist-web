@@ -7,7 +7,15 @@
   gap: 8px;
 }
 
-.input {
-  flex: 1;
-  padding: 1rem;
+main {
+  max-width: 45.375rem;
+  margin: 4rem auto 0rem;
 }
+
+.tasksCountWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+

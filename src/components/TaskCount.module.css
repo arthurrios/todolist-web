@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.textTasksDone {
+  color: var(--purple);
+}
+
+.textTasksCreated {
+  color: var(--blue);
+}
+
+.countContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  background-color: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
