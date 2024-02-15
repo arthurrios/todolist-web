@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# ToDo List - Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## The App
+This is a to-do list that lets you create tasks, mark or unmark them as finished or delete them.<br>
+There are counters on the top of the list with the number of tasks to-do and already done tasks.
 
-Currently, two official plugins are available:
+### Previews
+<div style="display: flex; gap: 0.5rem; flex-direction: column">
+  <img alt="" title="" src="./assets/ListFull.jpg">
+  <img alt="" title="" src="./assets/ListEmpty.jpg">
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Techs
+1. React
+2. Typescript
+3. useState Hook
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Steps
+1. Clone this repository;
+2. Run your preferred command to install dependencies:
+- `npm install`
+- `yarn install` 
+- `pnpm install` 
+3. Run the app with: 
+- `npm run dev`
+- `yarn dev` 
+- `pnpm run dev` 
